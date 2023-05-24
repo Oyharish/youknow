@@ -1,0 +1,34 @@
+.Bg-container {
+    background-color: #F19FA8;
+    color: #2A2A63;
+}
+.work {
+    flex-direction: row;
+}
+
+.large {
+    margin: 20px;
+}
+
+.skills-dot svg {
+    margin: 0 10px;
+}
+
+@media(min-width:768px) {
+    .work {
+        flex-direction: row;
+    }
+
+    .border-r {
+        border-right: 1px solid black;
+    }
+
+    .large {
+        margin: 40px 0;
+    }
+
+    .vl {
+        border-left: 1px solid black;
+        height: 200px;
+    }
+}
